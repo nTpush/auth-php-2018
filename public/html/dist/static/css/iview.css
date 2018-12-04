@@ -1,0 +1,90 @@
+.ivu-layout-header {
+    height: 50px;
+    line-height: 50px;
+    padding: 0 10px;
+}
+
+.ivu-layout-header .ivu-icon {
+    margin-left: 8px;
+}
+.ivu-layout-content {
+    padding: 0 0 !important;
+}
+.ivu-card-body {
+    overflow: hidden;
+    padding: 0px;
+    /* height: calc(100vh - 110px); */
+}
+
+a {
+    color: #495060;
+}
+
+a:hover {
+    color: #363E4F;
+}
+
+.ivu-layout-sider-trigger {
+    display: none;
+}
+
+.ivu-form-label-right {
+    display: block !important;
+}
+
+
+.ivu-table-header th span{
+    font-weight: bold;
+}
+
+.ivu-menu-dark.ivu-menu-vertical .ivu-menu-item:hover .z_card{
+    display: block;
+}
+
+
+
+
+.small .ivu-menu-submenu {
+    position: relative;
+}
+
+.log .ivu-table-wrapper {
+    display: block !important;
+}
+
+.log .ivu-page{
+    display: block !important;
+}
+
+
+/* .todolist .ivu-checkbox-inner {
+    width: 20px;
+    height: 20px;
+}
+
+.todolist .ivu-checkbox-checked .ivu-checkbox-inner:after {
+    width: 7px;
+    height: 12px;
+    left: 6px;
+} */
+
+.layout {
+    /* padding: 10px; */
+}
+
+.padding {
+    padding: 10px;
+}
+
+.ivu-modal-footer {
+    display: none;
+}
+
+.padding .ivu-page {
+    float: right;
+    margin-top: 10px;
+}
+
+.role .ivu-table-cell {
+    overflow: visible !important;
+}

@@ -1,0 +1,24 @@
+jdk:  C:\Program Files\Java\jdk-10.0.1
+
+tomcat: D:\Program Files\Apache Software Foundation\Tomcat 9.0\bin
+
+<template>
+    <div class="layout">
+       login
+    </div>
+</template>
+<script lang="ts">
+    import Vue from 'vue'
+    import Component from 'vue-class-component'
+    @Component({
+    })
+    export default class App extends Vue {
+        // 初始化数据
+  
+    }
+</script>
+
+
+ $refs: {
+            checkboxElement: HTMLFormElement
+        }

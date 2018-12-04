@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        // module配置很重要，千万不能配置成commonjs，热加载会失效
+        "module": "es2015",
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        "target": "es5",
+        "strictNullChecks": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "inlineSources": false,
+        "lib": ["es2015"]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]

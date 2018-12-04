@@ -1,0 +1,19 @@
+{
+  "name": "node_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf ./dist && ts-node ./scripts/build.ts",
+    "dev": "rm -rf ./dist && ts-node ./scripts/start-dev.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console": "^0.7.2",
+    "express": "^4.16.3",
+    "ts-node": "^7.0.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.15.1"
+  }
+}
